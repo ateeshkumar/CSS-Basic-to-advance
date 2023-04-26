@@ -1,0 +1,9 @@
+.bg-image{
+    outline: 2px solid black;
+    padding: 20em;
+    background-image: url("img.png");
+   /* background-size: 50% 50px; */
+    background-repeat: no-repeat, repeat;
+    background-position: right -20% bottom 0px, top left;
+    background-size: auto, 10%;
+}
