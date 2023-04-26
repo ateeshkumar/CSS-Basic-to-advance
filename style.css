@@ -7,3 +7,59 @@
     background-position: right -20% bottom 0px, top left;
     background-size: auto, 10%;
 }
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 15rem;
+    
+      display: grid;
+      place-items: center;
+      outline: 3px solid red;
+      
+        padding: .25em .75em;
+        border-radius: .25em;
+        background: rgba(0,0,0,.75);
+        /* color: #fff; */
+        letter-spacing: 1px;
+      }
+    
+  
+[class*="bg-"] {
+    background-image: url("img.png");
+    background-size: cover;
+  }
+  .bg-1 {
+    background-position: top left;
+  }
+  
+  .bg-2 {
+    background-position: top center;
+  }
+  
+  .bg-3 {
+    background-position: top right;
+  }
+  
+  .bg-4 {
+    background-position: center left;
+  }
+  
+  .bg-5 {
+    background-position: center center;
+  }
+  
+  .bg-6 {
+    background-position: center right;
+  }
+  
+  .bg-7 {
+    background-position: bottom left;
+  }
+  
+  .bg-8 {
+    background-position: bottom center;
+  }
+  
+  .bg-9 {
+    background-position: bottom right;
+  }
